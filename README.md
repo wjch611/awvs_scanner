@@ -50,13 +50,13 @@ python scan.py --file targets.txt [options]
 - **基础运行**（默认速度 `fast`，无代理）：
 
   ```bash
-  python scan.py --file targets.txt
+  python awvs_scanner.py --file targets.txt --speed moderate --proxy http://127.0.0.1:7777
   ```
 
 - **指定速度和大小写敏感**：
 
   ```bash
-  python scan.py --file targets.txt --speed slow --case-sensitive yes
+  python scan.py --file targets.txt --speed moderate --case-sensitive yes
   ```
 
 - **使用代理**：
